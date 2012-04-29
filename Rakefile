@@ -1,5 +1,5 @@
 task :ci do
-  sh "rspec"
+  sh "rspec --color"
   sh "cucumber"
 end
 
